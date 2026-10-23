@@ -1,9 +1,14 @@
 name: Tests
 
+# On every change, and every Wednesday after Patch Tuesday against GitHub's current Windows image,
+# so a Windows or PowerShell change that breaks the script shows up as a failed run.
 on:
   push:
     branches: [main]
   pull_request:
+  schedule:
+    - cron: '0 6 * * 3'
+  workflow_dispatch:
 
 jobs:
   pester:
