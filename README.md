@@ -102,7 +102,7 @@ CI runs them on Windows PowerShell 5.1 and PowerShell 7.
 
 What cleanup rules do and don't do, and the safe order to clean up Intune and Entra: [Intune stale devices: clean up without losing BitLocker keys](https://atliso.com/blog/intune-stale-devices-cleanup)
 
-Want to catch devices going quiet before they're 90 days stale? [Atliso Pro](https://atliso.com/pro?ref=stale-device-audit) checks every device every night and flags anything that hasn't checked in for 14 days. The first scan is free.
+Want to catch devices going quiet before they're 90 days stale? [Atliso](https://atliso.com/pro?ref=stale-device-audit) checks every device in every client tenant each night and flags anything that hasn't checked in for 14 days. Start with a 30-day free trial.
 
 ## License
 
